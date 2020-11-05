@@ -14,7 +14,7 @@ class Node {
 	} 
 } 
 
-public class lowestCommonAncestor
+public class LCA
 { 
 	
 	Node root; 
@@ -82,7 +82,7 @@ public class lowestCommonAncestor
 	// Driver code 
 	public static void main(String[] args) 
 	{ 
-		lowestCommonAncestor tree = new lowestCommonAncestor(); 
+		LCA tree = new LCA(); 
 		tree.root = new Node(1); 
 		tree.root.left = new Node(2); 
 		tree.root.right = new Node(3); 
