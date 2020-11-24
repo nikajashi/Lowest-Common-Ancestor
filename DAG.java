@@ -94,7 +94,7 @@ public class DAG {
 				{
 					if(visit[k] == j && adjacentList[i][j] == 1) //if visit[k] is equal to the vertex j and i and j have an edge between them 
 					{
-						cycle = true; // there is a cycle
+						cycle = true; // a cycle exists 
 						return cycle;
 					}
 				}
